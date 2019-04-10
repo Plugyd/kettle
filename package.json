@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Youaser/kettle.git"
   },
-  "author": "",
+  "author": "Vladislav Rodionov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Youaser/kettle/issues"
+  "dependencies": {
+    "eslint-plugin-node": "^8.0.1",
+    "express": "^4.16.4"
   },
-  "homepage": "https://github.com/Youaser/kettle#readme"
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
